@@ -3,6 +3,7 @@ const { WebClient } = require('@slack/web-api');
 const sgMail = require('@sendgrid/mail');
 const http = require('node:http');
 
+
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 // Read a token from the environment variables
 const token = process.env.SLACK_TOKEN;
