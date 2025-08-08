@@ -25,7 +25,7 @@ export const deleteUser = (id: number) => {
   return del(`/users/${id}`);
 };
 
-/*
+/*         
 MethodFullname for {get, put, post, del} are
     "sample/axiosInstance.ts::program:get",
     "sample/axiosInstance.ts::program:post",
